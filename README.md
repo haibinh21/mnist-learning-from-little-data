@@ -258,5 +258,3 @@ Nếu nghiên cứu tiếp, cần đặt protocol mới trước khi thử nghi�
 ## 10. Nguồn và ghi nhận
 
 - [MNIST — trang dataset](https://yann.lecun.org/exdb/mnist/).
-- Bài tập **Homework 1 — Learning from Little Data**, Chapter 1 của học phần Deep Learning for Computer Vision. Cell loading và đề bài được giữ theo tài liệu được giao; repo không tự nhận quyền tác giả phần này.
-- Kết quả đến từ notebook Colab của tác giả, lưu trong repo. README và phần tổ chức repo được hỗ trợ bởi Jasmine; không có lượt test mới khi soạn README.
