@@ -1,0 +1,16 @@
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+data/
+hw1_runs/
+**/data/
+**/hw1_runs/
+*.pt
+*.pth
+HW1_TEST_STARTED.json
+HW1_TEST_RESULT.json
+**/HW1_TEST_STARTED.json
+**/HW1_TEST_RESULT.json

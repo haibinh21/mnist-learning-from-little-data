@@ -1,0 +1,242 @@
+{
+  "provenance": {
+    "source": "User-executed Colab notebook with saved outputs",
+    "source_filename": "HaiBinhLe_Chapter_01 (1).ipynb",
+    "source_sha256": "3cc47567f75fcf16b409c288d7468640931dfb9ebb94c82a9bc9bdd778bb690b",
+    "run_directory": "hw1_runs/20261014_030406_544672",
+    "device_reported": "cuda",
+    "note": "Parsed saved notebook output, not a new training/test run. Original run checkpoint files are not available in this repository."
+  },
+  "split": {
+    "train": 4500,
+    "validation": 500,
+    "test": 65000,
+    "split_seed": 0
+  },
+  "step2": {
+    "baseline": {
+      "accuracy_mean_percent": 98.47,
+      "seed_sd_percentage_points": 0.19,
+      "per_seed_percent": [
+        98.2,
+        98.6,
+        98.6
+      ]
+    },
+    "wd_ls": {
+      "accuracy_mean_percent": 99.0,
+      "seed_sd_percentage_points": 0.28,
+      "per_seed_percent": [
+        98.6,
+        99.2,
+        99.2
+      ]
+    },
+    "wd_ls_drop": {
+      "accuracy_mean_percent": 99.2,
+      "seed_sd_percentage_points": 0.16,
+      "per_seed_percent": [
+        99.0,
+        99.2,
+        99.4
+      ]
+    }
+  },
+  "step3": {
+    "w32_flatten": {
+      "accuracy_mean_percent": 98.47,
+      "seed_sd_percentage_points": 0.19,
+      "per_seed_percent": [
+        98.2,
+        98.6,
+        98.6
+      ]
+    },
+    "w32_pool3": {
+      "accuracy_mean_percent": 98.6,
+      "seed_sd_percentage_points": 0.28,
+      "per_seed_percent": [
+        98.2,
+        98.8,
+        98.8
+      ]
+    },
+    "w32_gap": {
+      "accuracy_mean_percent": 96.53,
+      "seed_sd_percentage_points": 0.5,
+      "per_seed_percent": [
+        96.4,
+        97.2,
+        96.0
+      ]
+    }
+  },
+  "step4": {
+    "wd_ls": {
+      "accuracy_mean_percent": 99.0,
+      "seed_sd_percentage_points": 0.28,
+      "per_seed_percent": [
+        98.6,
+        99.2,
+        99.2
+      ]
+    },
+    "wd_ls_shift": {
+      "accuracy_mean_percent": 99.6,
+      "seed_sd_percentage_points": 0.16,
+      "per_seed_percent": [
+        99.4,
+        99.8,
+        99.6
+      ]
+    }
+  },
+  "learning_curve": [
+    {
+      "n_train": 100,
+      "augmentation": false,
+      "per_seed_percent": [
+        83.8,
+        85.0,
+        85.0
+      ],
+      "accuracy_mean_percent": 84.6,
+      "seed_sd_percentage_points": 0.5656854249492393
+    },
+    {
+      "n_train": 100,
+      "augmentation": true,
+      "per_seed_percent": [
+        92.0,
+        90.8,
+        92.0
+      ],
+      "accuracy_mean_percent": 91.6,
+      "seed_sd_percentage_points": 0.5656854249492393
+    },
+    {
+      "n_train": 250,
+      "augmentation": false,
+      "per_seed_percent": [
+        92.2,
+        91.6,
+        91.6
+      ],
+      "accuracy_mean_percent": 91.8,
+      "seed_sd_percentage_points": 0.282842712474623
+    },
+    {
+      "n_train": 250,
+      "augmentation": true,
+      "per_seed_percent": [
+        95.6,
+        94.8,
+        95.8
+      ],
+      "accuracy_mean_percent": 95.39999999999999,
+      "seed_sd_percentage_points": 0.4320493798938569
+    },
+    {
+      "n_train": 500,
+      "augmentation": false,
+      "per_seed_percent": [
+        94.6,
+        93.4,
+        95.2
+      ],
+      "accuracy_mean_percent": 94.4,
+      "seed_sd_percentage_points": 0.7483314773547862
+    },
+    {
+      "n_train": 500,
+      "augmentation": true,
+      "per_seed_percent": [
+        97.4,
+        97.0,
+        96.8
+      ],
+      "accuracy_mean_percent": 97.06666666666666,
+      "seed_sd_percentage_points": 0.24944382578493296
+    },
+    {
+      "n_train": 1000,
+      "augmentation": false,
+      "per_seed_percent": [
+        96.4,
+        96.4,
+        96.6
+      ],
+      "accuracy_mean_percent": 96.46666666666667,
+      "seed_sd_percentage_points": 0.09428090415820098
+    },
+    {
+      "n_train": 1000,
+      "augmentation": true,
+      "per_seed_percent": [
+        98.4,
+        98.4,
+        98.6
+      ],
+      "accuracy_mean_percent": 98.46666666666667,
+      "seed_sd_percentage_points": 0.09428090415820098
+    },
+    {
+      "n_train": 4500,
+      "augmentation": false,
+      "accuracy_mean_percent": 99.0,
+      "seed_sd_percentage_points": 0.28,
+      "per_seed_percent": [
+        98.6,
+        99.2,
+        99.2
+      ]
+    },
+    {
+      "n_train": 4500,
+      "augmentation": true,
+      "accuracy_mean_percent": 99.6,
+      "seed_sd_percentage_points": 0.16,
+      "per_seed_percent": [
+        99.4,
+        99.8,
+        99.6
+      ]
+    }
+  ],
+  "mcnemar_per_seed": [
+    {
+      "seed": 0,
+      "a_only_correct": 1,
+      "b_only_correct": 5,
+      "p": 0.21875
+    },
+    {
+      "seed": 1,
+      "a_only_correct": 1,
+      "b_only_correct": 4,
+      "p": 0.375
+    },
+    {
+      "seed": 2,
+      "a_only_correct": 0,
+      "b_only_correct": 2,
+      "p": 0.5
+    }
+  ],
+  "final": {
+    "recipe": "wd_ls_shift",
+    "seed": 0,
+    "epoch": 60,
+    "validation_accuracy": 0.994,
+    "correct": 64479,
+    "total": 65000,
+    "errors": 521,
+    "accuracy": 0.9919846153846154,
+    "wilson_95_percent": [
+      99.1269,
+      99.2642
+    ],
+    "checkpoint_path_in_original_run": "hw1_runs/20261014_030406_544672/9f11bf26c3489d7c.pt",
+    "checkpoint_available_in_repo": false
+  }
+}

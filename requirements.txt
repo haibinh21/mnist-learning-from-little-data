@@ -1,0 +1,8 @@
+# Functional dependencies; original Colab environment was not exported.
+# Install a PyTorch build appropriate for your CPU/CUDA platform.
+torch
+torchvision
+numpy
+scikit-learn
+matplotlib
+jupyterlab
